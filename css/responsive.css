@@ -1,0 +1,784 @@
+@media (max-width: 575.98px) {
+    #navbar{
+        padding: 60px 0;
+        transition: none;
+    }
+    .navbar-light .navbar-toggler .navbar-toggler-icon{
+        color: #ffffff;
+    }
+    #banner{
+        width: 365.5%;
+        height: 600px;
+    }
+    #banner .ban__overlay .ban__head{
+        margin-top: 140px;
+    }
+    #banner .ban__overlay .ban__head h1{
+        font-size: 90px;
+    }
+    #banner .row .ban__para p{
+        opacity: 0;
+    }
+    #about{
+        width: 365.5%;
+    }
+    #about .about__head h1{
+        font-size: 75px;
+    }
+    #about .about__head h1::after{
+        opacity: 0;
+    }
+    #about .about__head h1::before{
+        opacity: 0;
+    }
+    #about .about__info {
+        margin-left: 290px;
+        width: 600px;
+    }
+    #about .about__info h3{
+        font-size: 50px;
+    }
+    #about .about__info p{
+        font-size: 45px;
+    }
+    #project{
+        width: 365.5%;
+    }
+    #project .project__head h3{
+        font-size: 75px;
+    }
+    #project .project__head h3::after{
+        opacity: 0;
+    }
+    #project .project__head h3::before{
+        opacity: 0;
+    }
+    #link{
+        width: 365.5%;
+    }
+    #link .link__info .link__info__head h5{
+        font-size: 35px;
+    }
+    #link .link__info .link__info__links a{
+        font-size: 55px;
+    }
+    #link .link__head h3{
+        font-size: 75px;
+    }
+    #link .link__head h3::after{
+        opacity: 0;
+    }
+    #link .link__head h3::before{
+        opacity: 0;
+    }
+    #contact{
+        width: 365.5%;
+    }
+    #contact .contact__head h3{
+        font-size: 75px;
+    }
+    #contact .contact__head h3::after{
+        opacity: 0;
+    }
+    #contact .contact__head h3::before{
+        opacity: 0;
+    }
+    #contact .contact__head p{
+        font-size: 40px;
+    }
+    #contact .contact__info{
+        margin-top: 60px;
+    }
+    #contact .contact__info .row .contact__box p{
+        text-align: center;
+        font-size: 45px;        
+        font-family: 'Roboto', sans-serif;
+    }
+    #contact .contact__info .row .contact__box__input{
+        margin-top: 20px;
+        margin-left: 250px;
+    }
+    #contact .contact__info .row .contact__box__input .contact__box__name input{
+        margin-left: 40px;
+        font-size: 45px;
+        width: 600px;
+        padding: 40px;        
+    }
+    #contact .contact__info .row .contact__box__input .contact__box__email input{
+        margin-top: 20px;
+        margin-left: 40px;
+        font-size: 45px;
+        width: 600px;
+        padding: 40px;        
+    }
+    #contact .contact__info .row .contact__box__input .contact__box__phone input{
+        margin-top: 20px;
+        margin-left: 40px;
+        font-size: 45px;
+        width: 600px;
+        padding: 40px;        
+    }
+    #contact .contact__info .row .contact__box__input .contact__box__btn button{
+        margin-top: 20px;
+        margin-left: 100px;
+        width: 300px;
+        padding: 30px;
+        font-size: 45px;
+    }
+    #contact .contact__info .row .contact__box__myinfo{
+        margin-top: 30px;
+        text-align: center;
+    }
+    #contact .contact__info .row .contact__box__myinfo h4{
+        font-size: 55px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #contact .contact__info .row .contact__box__myinfo .contact__box__myinfo__phone p{
+        font-size: 45px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #contact .contact__info .row .contact__box__myinfo .contact__box__myinfo__email p{
+        font-size: 45px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #conclusion{
+        width: 365.5%;
+    }
+    #conclusion .conclusion__para p{
+        font-size: 35px;
+    }
+    #footer{
+        width: 365.5%;
+    }
+    #footer .footer__para p{
+        font-size: 30px;
+    }
+}
+/* 576-1199 porjonto baki shomossa gula */
+@media (max-width: 767.98px) {
+    #navbar{
+        padding: 60px 0;
+    }
+    #banner{
+        width: 365.5%;
+        height: 600px;
+    }
+    #banner .ban__overlay .ban__head{
+        margin-top: 140px;
+    }
+    #banner .ban__overlay .ban__head h1{
+        font-size: 10px;
+    }
+    #about{
+        width: 365.5%;
+    }
+    #about .about__head h1{
+        font-size: 75px;
+    }
+    #about .about__head h1::after{
+        opacity: 0;
+    }
+    #about .about__head h1::before{
+        opacity: 0;
+    }
+    #about .about__info {
+        margin-left: 200px;
+        width: 600px;
+    }
+    #about .about__info h3{
+        font-size: 50px;
+    }
+    #about .about__info p{
+        font-size: 45px;
+    }
+    #project{
+        width: 365.5%;
+    }
+    #project .project__head h3{
+        font-size: 75px;
+    }
+    #project .project__head h3::after{
+        opacity: 0;
+    }
+    #project .project__head h3::before{
+        opacity: 0;
+    }
+    #link{
+        width: 365.5%;
+    }
+    #link .link__info .link__info__head h5{
+        font-size: 35px;
+    }
+    #link .link__info .link__info__links a{
+        font-size: 55px;
+    }
+    #link .link__head h3{
+        font-size: 75px;
+    }
+    #link .link__head h3::after{
+        opacity: 0;
+    }
+    #link .link__head h3::before{
+        opacity: 0;
+    }
+    #contact{
+        width: 365.5%;
+    }
+    #contact .contact__head h3{
+        font-size: 75px;
+    }
+    #contact .contact__head h3::after{
+        opacity: 0;
+    }
+    #contact .contact__head h3::before{
+        opacity: 0;
+    }
+    #contact .contact__head p{
+        font-size: 40px;
+    }
+    #contact .contact__info{
+        margin-top: 60px;
+    }
+    #contact .contact__info .row .contact__box p{
+        text-align: center;
+        font-size: 45px;        
+        font-family: 'Roboto', sans-serif;
+    }
+    #contact .contact__info .row .contact__box__input{
+        margin-top: 20px;
+        margin-left: 250px;
+    }
+    #contact .contact__info .row .contact__box__input .contact__box__name input{
+        margin-left: 40px;
+        font-size: 45px;
+        width: 600px;
+        padding: 40px;        
+    }
+    #contact .contact__info .row .contact__box__input .contact__box__email input{
+        margin-top: 20px;
+        margin-left: 40px;
+        font-size: 45px;
+        width: 600px;
+        padding: 40px;        
+    }
+    #contact .contact__info .row .contact__box__input .contact__box__phone input{
+        margin-top: 20px;
+        margin-left: 40px;
+        font-size: 45px;
+        width: 600px;
+        padding: 40px;        
+    }
+    #contact .contact__info .row .contact__box__input .contact__box__btn button{
+        margin-top: 20px;
+        margin-left: 100px;
+        width: 300px;
+        padding: 30px;
+        font-size: 45px;
+    }
+    #contact .contact__info .row .contact__box__myinfo{
+        margin-top: 30px;
+        text-align: center;
+    }
+    #contact .contact__info .row .contact__box__myinfo h4{
+        font-size: 55px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #contact .contact__info .row .contact__box__myinfo .contact__box__myinfo__phone p{
+        font-size: 45px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #contact .contact__info .row .contact__box__myinfo .contact__box__myinfo__email p{
+        font-size: 45px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #conclusion{
+        width: 365.5%;
+    }
+    #conclusion .conclusion__para p{
+        font-size: 35px;
+    }
+    #footer{
+        width: 365.5%;
+    }
+    #footer .footer__para p{
+        font-size: 30px;
+    }
+}
+@media (max-width: 991.98px) {
+    #navbar{
+        padding: 60px 0;
+    }
+    #navbar .container-fluid button span{
+        color: #ffffff !important; 
+    }
+    #banner{
+        width: 365.5%;
+        height: 600px;
+    }
+    #banner .ban__overlay .ban__head{
+        margin-top: 140px;
+    }
+    #banner .ban__overlay .ban__head h1{
+        font-size: 90px;
+    }
+    #banner .row .ban__para p{
+        opacity: 0;
+    }
+    #about{
+        width: 365.5%;
+    }
+    #about .about__head h1{
+        font-size: 75px;
+    }
+    #about .about__head h1::after{
+        opacity: 0;
+    }
+    #about .about__head h1::before{
+        opacity: 0;
+    }
+    #about .about__info {
+        margin-left: 290px;
+        width: 600px;
+    }
+    #about .about__info h3{
+        font-size: 50px;
+    }
+    #about .about__info p{
+        font-size: 45px;
+    }
+    #project{
+        width: 365.5%;
+    }
+    #project .project__head h3{
+        font-size: 75px;
+    }
+    #project .project__head h3::after{
+        opacity: 0;
+    }
+    #project .project__head h3::before{
+        opacity: 0;
+    }
+    #link{
+        width: 365.5%;
+    }
+    #link .link__info .link__info__head h5{
+        font-size: 35px;
+    }
+    #link .link__info .link__info__links a{
+        font-size: 55px;
+    }
+    #link .link__head h3{
+        font-size: 75px;
+    }
+    #link .link__head h3::after{
+        opacity: 0;
+    }
+    #link .link__head h3::before{
+        opacity: 0;
+    }
+    #contact{
+        width: 365.5%;
+    }
+    #contact .contact__head h3{
+        font-size: 75px;
+    }
+    #contact .contact__head h3::after{
+        opacity: 0;
+    }
+    #contact .contact__head h3::before{
+        opacity: 0;
+    }
+    #contact .contact__head p{
+        font-size: 40px;
+    }
+    #contact .contact__info{
+        margin-top: 60px;
+    }
+    #contact .contact__info .row .contact__box p{
+        text-align: center;
+        font-size: 45px;        
+        font-family: 'Roboto', sans-serif;
+    }
+    #contact .contact__info .row .contact__box__input{
+        margin-top: 20px;
+        margin-left: 250px;
+    }
+    #contact .contact__info .row .contact__box__input .contact__box__name input{
+        margin-left: 40px;
+        font-size: 45px;
+        width: 600px;
+        padding: 40px;        
+    }
+    #contact .contact__info .row .contact__box__input .contact__box__email input{
+        margin-top: 20px;
+        margin-left: 40px;
+        font-size: 45px;
+        width: 600px;
+        padding: 40px;        
+    }
+    #contact .contact__info .row .contact__box__input .contact__box__phone input{
+        margin-top: 20px;
+        margin-left: 40px;
+        font-size: 45px;
+        width: 600px;
+        padding: 40px;        
+    }
+    #contact .contact__info .row .contact__box__input .contact__box__btn button{
+        margin-top: 20px;
+        margin-left: 100px;
+        width: 300px;
+        padding: 30px;
+        font-size: 45px;
+    }
+    #contact .contact__info .row .contact__box__myinfo{
+        margin-top: 30px;
+        text-align: center;
+    }
+    #contact .contact__info .row .contact__box__myinfo h4{
+        font-size: 55px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #contact .contact__info .row .contact__box__myinfo .contact__box__myinfo__phone p{
+        font-size: 45px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #contact .contact__info .row .contact__box__myinfo .contact__box__myinfo__email p{
+        font-size: 45px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #conclusion{
+        width: 365.5%;
+    }
+    #conclusion .conclusion__para p{
+        font-size: 35px;
+    }
+    #footer{
+        width: 365.5%;
+    }
+    #footer .footer__para p{
+        font-size: 30px;
+    }
+}
+@media (max-width: 1199.98px) {
+    #navbar{
+        padding: 60px 0;
+    }
+    #banner{
+        width: 365.5%;
+        height: 600px;
+    }
+    #banner .ban__overlay .ban__head{
+        margin-top: 140px;
+        margin-left: 90px;
+        width: 1000px;
+    }
+    #banner .row .ban__para p{
+        opacity: 0;
+    }
+    #about{
+        width: 365.5%;
+    }
+    #about .about__head{
+        margin-left: 100px;
+    }   
+    #about .about__head h1{
+        font-size: 75px;
+    }
+    #about .about__head h1::after{
+        opacity: 0;
+    }
+    #about .about__head h1::before{
+        opacity: 0;
+    }
+    #about .about__info{
+        width: 600px;
+    }
+    #about .about__info h3{
+        font-size: 50px;
+    }
+    #about .about__info p{
+        font-size: 45px;
+    }
+    #project{
+        width: 365.5%;
+    }
+    #project .project__head h3{
+        font-size: 75px;
+    }
+    #project .project__head h3::after{
+        opacity: 0;
+    }
+    #project .project__head h3::before{
+        opacity: 0;
+    }
+    #link{
+        width: 365.5%;
+    }
+    #link .link__info .link__info__head h5{
+        font-size: 35px;
+    }
+    #link .link__info .link__info__links a{
+        font-size: 55px;
+    }
+    #link .link__head h3{
+        font-size: 75px;
+    }
+    #link .link__head h3::after{
+        opacity: 0;
+    }
+    #link .link__head h3::before{
+        opacity: 0;
+    }
+    #contact{
+        width: 365.5%;
+    }
+    #contact .contact__head h3{
+        font-size: 75px;
+    }
+    #contact .contact__head h3::after{
+        opacity: 0;
+    }
+    #contact .contact__head h3::before{
+        opacity: 0;
+    }
+    #contact .contact__head p{
+        font-size: 40px;
+    }
+    #contact .contact__info{
+        margin-top: 60px;
+    }
+    #contact .contact__info .row .contact__box p{
+        text-align: center;
+        font-size: 45px;        
+        font-family: 'Roboto', sans-serif;
+    }
+    #contact .contact__info .row .contact__box__input{
+        margin-top: 600px !important;
+        margin-left: 250px;
+    }
+    #contact .contact__info .row .contact__box__input .contact__box__name input{
+        margin-left: 40px;
+        font-size: 45px;
+        width: 600px;
+        padding: 40px;        
+    }
+    #contact .contact__info .row .contact__box__input .contact__box__email input{
+        margin-top: 20px;
+        margin-left: 40px;
+        font-size: 45px;
+        width: 600px;
+        padding: 40px;        
+    }
+    #contact .contact__info .row .contact__box__input .contact__box__phone input{
+        margin-top: 20px;
+        margin-left: 40px;
+        font-size: 45px;
+        width: 600px;
+        padding: 40px;        
+    }
+    #contact .contact__info .row .contact__box__input .contact__box__btn button{
+        margin-top: 20px;
+        margin-left: 100px;
+        width: 300px;
+        padding: 30px;
+        font-size: 45px;
+    }
+    #contact .contact__info .row .contact__box__myinfo{
+        margin-top: 30px;
+        text-align: center;
+    }
+    #contact .contact__info .row .contact__box__myinfo h4{
+        font-size: 55px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #contact .contact__info .row .contact__box__myinfo .contact__box__myinfo__phone p{
+        font-size: 45px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #contact .contact__info .row .contact__box__myinfo .contact__box__myinfo__email p{
+        font-size: 45px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #conclusion{
+        width: 365.5%;
+    }
+    #conclusion .conclusion__para p{
+        font-size: 35px;
+    }
+    #footer{
+        width: 365.5%;
+    }
+    #footer .footer__para p{
+        font-size: 30px;
+    }
+}
+@media (max-width: 1399.98px) {
+    #navbar{
+        padding: 80px 0;
+    }
+    #navbar .collapse .navbar-nav .nav-item .home{
+        font-size: 40px;
+    }
+    #navbar .collapse .navbar-nav .nav-item .about{
+        font-size: 40px;
+    }
+    #navbar .collapse .navbar-nav .nav-item .project{
+        font-size: 40px;
+    }
+    #navbar .collapse .navbar-nav .nav-item .link{
+        font-size: 40px;
+    }
+    #navbar .collapse .navbar-nav .nav-item .contact{
+        font-size: 40px;
+    }
+    #banner{
+        width: 365.5%;
+        height: 780px;
+    }
+    #banner .ban__overlay .ban__head{
+        margin-top: 220px;
+    }
+    #banner .ban__overlay .ban__head h1{
+        font-size: 120px;
+    }
+    #banner .row .ban__para p{
+        opacity: 0;
+    }
+    #about{
+        width: 365.5%;
+    }
+    #about .about__head h1{
+        font-size: 75px;
+    }
+    #about .about__head h1::after{
+        opacity: 0;
+    }
+    #about .about__head h1::before{
+        opacity: 0;
+    }
+    #about .about__info {
+        margin-left: 260px;
+        width: 600px;
+    }
+    #about .about__info h3{
+        font-size: 50px;
+    }
+    #about .about__info p{
+        font-size: 45px;
+    }
+    #project{
+        width: 365.5%;
+    }
+    #project .project__head h3{
+        font-size: 75px;
+    }
+    #project .project__head h3::after{
+        opacity: 0;
+    }
+    #project .project__head h3::before{
+        opacity: 0;
+    }
+    #link{
+        width: 365.5%;
+    }
+    #link .link__info .link__info__head h5{
+        font-size: 50px;
+    }
+    #link .link__info .link__info__links a{
+        font-size: 65px;
+    }
+    #link .link__head h3{
+        font-size: 75px;
+    }
+    #link .link__head h3::after{
+        opacity: 0;
+    }
+    #link .link__head h3::before{
+        opacity: 0;
+    }
+    #contact{
+        width: 365.5%;
+    }
+    #contact .contact__head h3{
+        font-size: 75px;
+    }
+    #contact .contact__head h3::after{
+        opacity: 0;
+    }
+    #contact .contact__head h3::before{
+        opacity: 0;
+    }
+    #contact .contact__head p{
+        font-size: 50px;
+    }
+    #contact .contact__info{
+        margin-top: 60px;
+    }
+    #contact .contact__info .row .contact__box p{
+        text-align: left;
+        font-size: 40px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+    }
+    #contact .contact__info .row .contact__box__input{
+        margin-top: 700px;
+        margin-left: -60px;
+    }
+    #contact .contact__info .row .contact__box__input .contact__box__name input{
+        font-size: 45px;
+        width: 374px;
+        padding: 20px;        
+    }
+    #contact .contact__info .row .contact__box__input .contact__box__email input{
+        margin-top: 20px;
+        font-size: 45px;
+        width: 374px;
+        padding: 20px;        
+    }
+    #contact .contact__info .row .contact__box__input .contact__box__phone input{
+        margin-top: 20px;
+        font-size: 45px;
+        width: 374px;
+        padding: 20px;        
+    }
+    #contact .contact__info .row .contact__box__input .contact__box__btn button{
+        margin-top: 20px;
+        margin-left: -50px;
+        width: 300px;
+        padding: 20px 0;
+        font-size: 35px;
+    }
+    #contact .contact__info .row .contact__box__myinfo{
+        text-align: right;
+        margin-top: 30px;
+    }
+    #contact .contact__info .row .contact__box__myinfo h4{
+        font-size: 55px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #contact .contact__info .row .contact__box__myinfo .contact__box__myinfo__phone p{
+        font-size: 45px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #contact .contact__info .row .contact__box__myinfo .contact__box__myinfo__email p{
+        font-size: 45px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #conclusion{
+        width: 365.5%;
+    }
+    #conclusion .conclusion__para p{
+        font-size: 35px;
+    }
+    #footer{
+        width: 365.5%;
+    }
+    #footer .footer__para p{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-device-width: 1366px) {
+    #banner {
+      background-attachment: scroll;
+    }
+}

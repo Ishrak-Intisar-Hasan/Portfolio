@@ -1,0 +1,695 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*======================= Navbar Start======================= */
+#navbar {
+  overflow: hidden;
+  background-color: transparent;
+  padding: 30px 0;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+#navbar .navbar-brand {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Belanosima", sans-serif;
+  color: #ffffff;
+}
+#navbar .collapse {
+  justify-content: center;
+}
+#navbar .collapse .navbar-nav {
+  gap: 100px;
+}
+#navbar .collapse .navbar-nav .nav-item .home {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+  transition: all linear 0.3s;
+}
+#navbar .collapse .navbar-nav .nav-item .home:hover {
+  color: #779bff;
+}
+#navbar .collapse .navbar-nav .nav-item .about {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+  transition: all linear 0.3s;
+}
+#navbar .collapse .navbar-nav .nav-item .about:hover {
+  color: #d82b2b;
+}
+#navbar .collapse .navbar-nav .nav-item .project {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+  transition: all linear 0.3s;
+}
+#navbar .collapse .navbar-nav .nav-item .project:hover {
+  color: #fab700;
+}
+#navbar .collapse .navbar-nav .nav-item .link {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+  transition: all linear 0.3s;
+}
+#navbar .collapse .navbar-nav .nav-item .link:hover {
+  color: #f020a0;
+}
+#navbar .collapse .navbar-nav .nav-item .contact {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+  transition: all linear 0.3s;
+}
+#navbar .collapse .navbar-nav .nav-item .contact:hover {
+  color: #2ef5da;
+}
+
+/*======================= Navbar End======================= */
+/*======================= Banner Start======================= */
+#banner {
+  background-image: url(../images/banner.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+}
+#banner .ban__overlay {
+  padding: 100px 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+}
+#banner .ban__overlay .ban__head {
+  margin-top: 200px;
+  text-align: center;
+}
+#banner .ban__overlay .ban__head h1 {
+  font-size: 60px;
+  font-family: "Agdasima", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+}
+#banner .ban__overlay .row {
+  margin-left: 90px;
+}
+#banner .ban__overlay .row .ban__para {
+  margin-top: 20px;
+  text-align: center;
+  width: 210px;
+}
+#banner .ban__overlay .row .ban__para p {
+  background-color: #779bff;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9058823529);
+}
+
+/*======================= Banner End======================= */
+/*======================= About Start======================= */
+#about {
+  padding: 100px 0;
+  background-color: rgba(17, 16, 16, 0.945);
+  text-align: center;
+}
+#about .about__head {
+  position: relative;
+}
+#about .about__head h1 {
+  font-size: 60px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: rgba(240, 233, 233, 0.9450980392);
+}
+#about .about__head h1:after {
+  position: absolute;
+  content: "";
+  left: 100px;
+  bottom: 33px;
+  width: 120px;
+  height: 2px;
+  background-color: #d82b2b;
+}
+#about .about__head h1:before {
+  position: absolute;
+  content: "";
+  right: 100px;
+  bottom: 33px;
+  width: 120px;
+  height: 2px;
+  background-color: #d82b2b;
+}
+#about .about__info {
+  margin-top: 30px;
+  margin-left: 325px;
+  padding: 20px;
+  padding-bottom: 0;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  width: 500px;
+  transition: all linear 0.3s;
+}
+#about .about__info:hover {
+  border-color: #d82b2b;
+}
+#about .about__info h3 {
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #c9c9c9;
+}
+#about .about__info p {
+  margin-top: 20px;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #c9c9c9;
+}
+
+/*======================= About End======================= */
+/*======================= Projects Start======================= */
+#project {
+  padding: 100px 0;
+  background-color: rgb(231, 236, 231);
+}
+#project .project__head {
+  text-align: center;
+  position: relative;
+}
+#project .project__head h3 {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: rgba(36, 33, 33, 0.9333333333);
+}
+#project .project__head h3:after {
+  position: absolute;
+  content: "";
+  left: 285px;
+  bottom: 30px;
+  width: 120px;
+  height: 2px;
+  background-color: #fab700;
+}
+#project .project__head h3:before {
+  position: absolute;
+  content: "";
+  right: 285px;
+  bottom: 30px;
+  width: 120px;
+  height: 2px;
+  background-color: #fab700;
+}
+#project .project__gallery {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  row-gap: 30px;
+}
+#project .project__gallery .project__gal__view__one {
+  border-radius: 15px;
+  width: 290px;
+  height: 450px;
+  background-image: url(../images/valentina.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all linear 0.3s;
+}
+#project .project__gallery .project__gal__view__one:hover .project__gal__overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+}
+#project .project__gallery .project__gal__view__one:hover .project__gal__overlay P {
+  color: #ff0055;
+}
+#project .project__gallery .project__gal__view__one:hover .project__gal__overlay a {
+  color: #fab700;
+}
+#project .project__gallery .project__gal__view__one .project__gal__overlay {
+  transition: all linear 0.3s;
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 144px;
+}
+#project .project__gallery .project__gal__view__one .project__gal__overlay p {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: transparent;
+}
+#project .project__gallery .project__gal__view__one .project__gal__overlay a {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: transparent;
+}
+#project .project__gallery .project__gal__view__two {
+  border-radius: 15px;
+  width: 290px;
+  height: 450px;
+  background-image: url(../images/bizzency.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#project .project__gallery .project__gal__view__two:hover .project__gal__overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+}
+#project .project__gallery .project__gal__view__two:hover .project__gal__overlay P {
+  color: #397dfa;
+}
+#project .project__gallery .project__gal__view__two:hover .project__gal__overlay a {
+  color: #fab700;
+}
+#project .project__gallery .project__gal__view__two .project__gal__overlay {
+  transition: all linear 0.3s;
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 144px;
+}
+#project .project__gallery .project__gal__view__two .project__gal__overlay p {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: transparent;
+}
+#project .project__gallery .project__gal__view__two .project__gal__overlay a {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: transparent;
+}
+#project .project__gallery .project__gal__view__three {
+  border-radius: 15px;
+  width: 290px;
+  height: 450px;
+  background-image: url(../images/finsweet.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#project .project__gallery .project__gal__view__three:hover .project__gal__overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+}
+#project .project__gallery .project__gal__view__three:hover .project__gal__overlay P {
+  color: #133bee;
+}
+#project .project__gallery .project__gal__view__three:hover .project__gal__overlay a {
+  color: #fab700;
+}
+#project .project__gallery .project__gal__view__three .project__gal__overlay {
+  transition: all linear 0.3s;
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 144px;
+}
+#project .project__gallery .project__gal__view__three .project__gal__overlay p {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: transparent;
+}
+#project .project__gallery .project__gal__view__three .project__gal__overlay a {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: transparent;
+}
+#project .project__gallery .project__gal__view__four {
+  border-radius: 15px;
+  width: 290px;
+  height: 450px;
+  background-image: url(../images/kubb.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#project .project__gallery .project__gal__view__four:hover .project__gal__overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+}
+#project .project__gallery .project__gal__view__four:hover .project__gal__overlay P {
+  color: #6f44e6;
+}
+#project .project__gallery .project__gal__view__four:hover .project__gal__overlay a {
+  color: #fab700;
+}
+#project .project__gallery .project__gal__view__four .project__gal__overlay {
+  transition: all linear 0.3s;
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 144px;
+}
+#project .project__gallery .project__gal__view__four .project__gal__overlay p {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: transparent;
+}
+#project .project__gallery .project__gal__view__four .project__gal__overlay a {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: transparent;
+}
+#project .project__gallery .project__gal__view__five {
+  border-radius: 15px;
+  width: 290px;
+  height: 450px;
+  background-image: url(../images/omah.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#project .project__gallery .project__gal__view__five:hover .project__gal__overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+}
+#project .project__gallery .project__gal__view__five:hover .project__gal__overlay P {
+  color: rgba(224, 201, 70, 0.9921568627);
+}
+#project .project__gallery .project__gal__view__five:hover .project__gal__overlay a {
+  color: #fab700;
+}
+#project .project__gallery .project__gal__view__five .project__gal__overlay {
+  transition: all linear 0.3s;
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 144px;
+}
+#project .project__gallery .project__gal__view__five .project__gal__overlay p {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: transparent;
+}
+#project .project__gallery .project__gal__view__five .project__gal__overlay a {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: transparent;
+}
+#project .project__gallery .project__gal__view__six {
+  border-radius: 15px;
+  width: 290px;
+  height: 450px;
+  background-image: url(../images/innovate.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#project .project__gallery .project__gal__view__six:hover .project__gal__overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+}
+#project .project__gallery .project__gal__view__six:hover .project__gal__overlay P {
+  color: #963bff;
+}
+#project .project__gallery .project__gal__view__six:hover .project__gal__overlay a {
+  color: #fab700;
+}
+#project .project__gallery .project__gal__view__six .project__gal__overlay {
+  transition: all linear 0.3s;
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 144px;
+}
+#project .project__gallery .project__gal__view__six .project__gal__overlay p {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: transparent;
+}
+#project .project__gallery .project__gal__view__six .project__gal__overlay a {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: transparent;
+}
+
+/*======================= Projects End======================= */
+/*======================= Links Start======================= */
+#link {
+  padding: 100px 0;
+  background-color: rgba(17, 16, 16, 0.945);
+  text-align: center;
+}
+#link .link__head {
+  position: relative;
+}
+#link .link__head h3 {
+  font-size: 60px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: rgba(240, 233, 233, 0.9450980392);
+}
+#link .link__head h3:after {
+  position: absolute;
+  content: "";
+  left: 370px;
+  bottom: 33px;
+  width: 120px;
+  height: 2px;
+  background-color: #f020a0;
+}
+#link .link__head h3:before {
+  position: absolute;
+  content: "";
+  right: 370px;
+  bottom: 33px;
+  width: 120px;
+  height: 2px;
+  background-color: #f020a0;
+}
+#link .link__info .link__info__head {
+  margin-top: 30px;
+}
+#link .link__info .link__info__head h5 {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #c9c9c9;
+}
+#link .link__info .link__info__links {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+#link .link__info .link__info__links a {
+  font-size: 45px;
+  color: #ffffff;
+  transition: all linear 0.3s;
+}
+#link .link__info .link__info__links a:hover {
+  color: #f020a0;
+}
+
+/*======================= Links End======================= */
+/*======================= Contact Start======================= */
+#contact {
+  padding: 100px 0;
+  background-color: rgb(231, 236, 231);
+}
+#contact .contact__head {
+  text-align: center;
+  position: relative;
+}
+#contact .contact__head h3 {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: rgba(36, 33, 33, 0.9333333333);
+}
+#contact .contact__head h3:after {
+  position: absolute;
+  content: "";
+  left: 325px;
+  bottom: 75px;
+  width: 120px;
+  height: 2px;
+  background-color: #2ef5da;
+}
+#contact .contact__head h3:before {
+  position: absolute;
+  content: "";
+  right: 325px;
+  bottom: 75px;
+  width: 120px;
+  height: 2px;
+  background-color: #2ef5da;
+}
+#contact .contact__head p {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(36, 33, 33, 0.9333333333);
+}
+#contact .contact__info {
+  margin-top: 50px;
+}
+#contact .contact__info .row .contact__box p {
+  font-size: 30px;
+  font-family: "Agdasima", sans-serif;
+  font-weight: 500;
+  color: rgba(36, 33, 33, 0.9333333333);
+}
+#contact .contact__info .row .contact__box__input {
+  margin-left: 70px;
+}
+#contact .contact__info .row .contact__box__input .contact__box__name input {
+  border: 2px solid #2ef5da;
+  border-radius: 15px;
+  background-color: rgb(231, 236, 231);
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  width: 250px;
+  padding: 10px;
+}
+#contact .contact__info .row .contact__box__input .contact__box__email {
+  margin-top: 10px;
+}
+#contact .contact__info .row .contact__box__input .contact__box__email input {
+  border: 2px solid #2ef5da;
+  border-radius: 15px;
+  background-color: rgb(231, 236, 231);
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  width: 250px;
+  padding: 10px;
+}
+#contact .contact__info .row .contact__box__input .contact__box__phone {
+  margin-top: 10px;
+}
+#contact .contact__info .row .contact__box__input .contact__box__phone input {
+  border: 2px solid #2ef5da;
+  border-radius: 15px;
+  background-color: rgb(231, 236, 231);
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  width: 250px;
+  padding: 10px;
+}
+#contact .contact__info .row .contact__box__input .contact__box__btn {
+  margin-left: 80px;
+  margin-top: 20px;
+}
+#contact .contact__info .row .contact__box__input .contact__box__btn button {
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: rgba(36, 33, 33, 0.9333333333);
+  border: 2px solid #2ef5da;
+  border-radius: 15px;
+  transition: all linear 0.3s;
+}
+#contact .contact__info .row .contact__box__input .contact__box__btn button:hover {
+  color: #ffffff;
+  background-color: #2ef5da;
+}
+#contact .contact__info .row .contact__box__myinfo {
+  text-align: right;
+}
+#contact .contact__info .row .contact__box__myinfo h4 {
+  font-size: 40px;
+  font-family: "Agdasima", sans-serif;
+  font-weight: 500;
+  color: #332e2e;
+}
+#contact .contact__info .row .contact__box__myinfo .contact__box__myinfo__phone {
+  margin-top: 20px;
+}
+#contact .contact__info .row .contact__box__myinfo .contact__box__myinfo__phone p {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  font-family: "Agdasima", sans-serif;
+  color: #332e2e;
+}
+#contact .contact__info .row .contact__box__myinfo .contact__box__myinfo__email {
+  margin-top: 20px;
+}
+#contact .contact__info .row .contact__box__myinfo .contact__box__myinfo__email p {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  font-family: "Agdasima", sans-serif;
+  color: #332e2e;
+}
+
+/*======================= Contact End======================= */
+/*======================= Conclusion Start======================= */
+#conclusion {
+  padding: 20px 0;
+  padding-top: 30px;
+  background-color: #645f5f;
+}
+#conclusion .conclusion__para {
+  text-align: center;
+}
+#conclusion .conclusion__para p {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+
+/*======================= Conclusion End======================= */
+/*======================= Footer Start======================= */
+#footer {
+  padding: 30px 0 10px;
+  background-color: #706b6b;
+  text-align: center;
+}
+#footer .footer__para p {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+#footer .up {
+  margin-top: 20px;
+}
+#footer .up a {
+  font-size: 30px;
+  color: #ffffff;
+  padding: 5px 11px;
+  border: 2px solid transparent;
+  border-radius: 50px;
+  transition: all linear 0.3s;
+}
+#footer .up a:hover {
+  border-color: #f77206;
+  color: #f77206;
+}
+
+/*======================= Footer End======================= *//*# sourceMappingURL=style.css.map */
